@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-04-06 16:07:38
- * @LastEditTime: 2021-04-07 00:28:15
+ * @LastEditTime: 2021-04-07 08:43:17
  * @LastEditors: Please set LastEditors
  * @Description: 仅用于记录地图中的内容（箱子、玩家、墙、空白）
  * @FilePath: \推箱子\module\map.js

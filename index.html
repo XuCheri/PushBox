@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-06 15:58:16
- * @LastEditTime: 2021-04-06 19:46:12
+ * @LastEditTime: 2021-04-07 08:41:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \推箱子\index.html
@@ -47,11 +47,45 @@
             border: 2px solid rgb(24, 151, 24);
             box-sizing: border-box;
         }
+        .direction{
+            border: 1px solid ;
+            background-color: #abc;
+            width: 50px;
+            height: 50px;
+            box-sizing: border-box;
+            line-height: 50px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .directionlist{
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            margin-top: 3px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nothing{
+            background-color: #fff;
+            border: none;
+            cursor:initial;
+        }
     </style>
 </head>
 
 <body>
     <div id="game">
+    </div>
+    <div class="directionlist">
+        <div class="direction nothing"></div>
+        <div class="direction up">↑</div>
+        <div class="direction nothing"></div>
+        <div class="direction left">←</div>
+        <div class="direction "></div>
+        <div class="direction right">→</div>
+        <div class="direction nothing"></div>
+        <div class="direction down">↓</div>
+        <div class="direction nothing"></div>
     </div>
     <script src="./module/index.js" type="module"></script>
 </body>
